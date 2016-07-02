@@ -22,12 +22,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="car" />
         <module name="sprongmvc-spring-mybatis-starter" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="car" target="1.5" />
       <module name="sprongmvc-spring-mybatis-starter" target="1.5" />
     </bytecodeTargetLevel>
   </component>
